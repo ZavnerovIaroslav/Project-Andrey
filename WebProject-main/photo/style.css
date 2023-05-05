@@ -1,0 +1,13 @@
+.line.Line {
+    margin-bottom: 30.5px;
+}
+
+.photo {
+    margin-top: 55.5px;
+    margin-left: 500px;
+    display: flex;
+}
+
+.photo:hover{
+    cursor: pointer;
+}

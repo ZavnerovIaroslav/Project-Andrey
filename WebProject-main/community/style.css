@@ -1,0 +1,61 @@
+.lineLine {
+  margin-top: 63.5px;
+}
+
+.groupe {
+  background-color: #00887a;
+  margin-top: 138px;
+  width: 690px;
+  height: 430px;
+  color: white;
+  transition: 0.3s;
+}
+.groupe:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #77a6f7;
+  transform: scale(1.01);
+}
+
+.avatarGroupe {
+  width: 40px;
+  height: 40px;
+  margin-left: 270px;
+}
+
+.groupeinside {
+  margin-top: 25px;
+}
+
+.avatarGroupe {
+  margin-right: 270px;
+}
+
+.aboutDopInfoImage {
+  margin-left: 720px;
+}
+
+.aboutDopInfoImage img {
+  margin-top: 8px;
+  padding-right: 29px;
+  width: 40px;
+  height: 40px;
+}
+
+.groupeinside {
+  margin: 0 auto;
+  width: fit-content;
+}
+.containerMain {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.groupeinside p {
+  margin: 0 auto;
+  width: fit-content;
+}
+.imgGroupeDop {
+  padding: 10px;
+  padding-top: 170px;
+}

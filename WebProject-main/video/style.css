@@ -1,0 +1,12 @@
+.line.Line {
+    margin-bottom: 30.5px;
+}
+
+.video {
+    margin-top: 55.5px;
+    margin-left: 500px;
+}
+
+.video:hover{
+    cursor: pointer;
+}

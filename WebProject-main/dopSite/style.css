@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body a{
+    text-decoration: none;
+}
+
+.headInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.h2{
+    margin-top: 43px;
+    
+}
+
+.container{
+    max-width: 1410px;
+    margin: auto;
+}
+
+.containerMain{
+    
+    max-width: 1410px;
+    margin: auto;
+    margin-bottom: 300px;
+}
+.logoInfo{
+    display: flex;
+}
+
+.logoInfo a{
+    margin: auto;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+ 
+}
+.aboutInfo{
+    margin-left: 10%;
+}
+.profileInfo {
+    display: flex;
+}
+/* .profileInfo p{
+   
+} */
+.aboutInfo a{
+    font-size: 24px;    
+    padding: 2px;
+    transition: 0.3s;
+}
+.aboutInfo a:hover{
+    background-color: #00887A;
+    padding: 2px;
+    transition: 0.3s;
+    border-radius: 10px;
+    color: white;
+}
+.aboutA{
+    color: black;
+}
+
+.lentaAbout{
+    background-color: #00887A;
+    padding: 2px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+footer{
+    position: relative;
+    height: 213px; 
+    width: 100%;
+    margin: auto;
+}
+.containerFooter{ 
+    width: 100%;
+    height: 213px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #00887A;
+}
+
+.containerFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-right: 162px;
+}
+.FooterDiv {
+    
+    color: white;
+}
+.FooterDiv p{
+    font-size: 24px;
+    text-align: center;
+}
+.imageAboutUs{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 50px);
+    gap: 30px;
+}
+.footerDopInfo a{
+    display: block;
+    font-size: 24px;
+    color: white;
+}
+.footerDopInfo{
+
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.personSelectChat{
+    width: 400px;
+    height: 100px;
+    background-color: #77A6F7;
+    transition: 0.3s;
+    margin-bottom: 43px;
+    display: flex;
+    color: white;
+    font-size: 24px;
+
+}
+.personSelectChat p{
+    padding-top: 13px
+
+}
+.personSelectChat img{
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+}
+.personSelectChat:hover{
+    background-color: #00887A;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.containerMain{
+    display: flex;
+}
+.allPeople{
+    width: 400px;
+    max-height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #77A6F7;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #77A6F7;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid #00887A;  /* padding вокруг плашки */
+  }
+
+
+.allPeople::-webkit-scrollbar{
+    width: 3px;
+    border-radius: 10px;
+
+}
+
+.allPeople::-webkit-scrollbar-track{
+    background-color: #77A6F7;
+    border-radius: 10px;
+}
+.allPeople::-webkit-scrollbar-thumb{
+    background-color: #00887A;
+    border-radius: 20px;
+    border: 1px solid #00887A;
+}
+
+.ChatHeader{
+    display: flex;
+    background-color: #00887A;
+    width: 840px;
+    height: 102px;
+
+    color: white;
+    font-size: 24px;
+
+
+}
+.ChatHeader p{
+    padding-top: 13px;
+}
+.chat{
+    margin-left: 180px;
+}
+
+.avatarChat{
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+}
+
+.imgChatDop{
+    width: 40px;
+    height: 40px;
+}
+.chatMain{
+    width: 840px;
+    height: 521px;
+    background-color: #D3E3FC;
+}
+
+.chatFooter{
+    width: 840px;
+    height: 129px;
+    background-color: #77A6F7;
+}
+.aboutDopInfoImage{
+    margin-left:350px;
+    padding-top: 32px;
+    padding-right: 53px;
+    padding-left: 21px;
+}
+
+.inpBut{
+    margin-left: 50px;
+}
+
+.chatFooter input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #77A6F7;
+    padding: 25px;
+    width: 461px;
+    color: white;
+}
+.chatFooter button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00887A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.chatFooter button:hover{
+    background-color: #D3E3FC;
+    color: #00887A;
+}

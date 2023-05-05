@@ -1,0 +1,48 @@
+.line.Line{
+    margin-bottom: 30.5px;
+}
+
+.player{
+    background-color: #24529d;
+    width: 1067px;
+    height: 345px;
+}
+
+.music:hover{
+    cursor: pointer;
+}
+.music{
+    max-width: 1067px;
+    height: 345px;
+    background-color: #D3E3FC;
+    margin: 0 auto;
+    width: fit-content;
+    
+
+}
+.music p{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 40px;
+}
+
+.music img{
+    width: 60px;
+    height: 60px;
+}
+#HeartSvgrepo{
+    max-width: 60px;
+    max-height: 60px;
+float: right
+
+}
+
+#TimeLine{
+    width: 1000px;
+    height: 70px;
+}
+
+.footerMusicPlayer{
+    margin-left:44px;
+    
+}

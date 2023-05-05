@@ -1,0 +1,41 @@
+.lineLine {
+  margin-bottom: 111px;
+}
+
+.friend {
+  background-color: #00887a;
+  margin-bottom: 50px;
+  display: flex;
+  width: 1410px;
+  height: 100px;
+  color: white;
+  transition: 0.3s;
+}
+.friend:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #77a6f7;
+  transform: scale(1.01);
+}
+
+.avatarChat {
+  width: 50px;
+  height: 50px;
+  margin-left: 122px;
+}
+.friendinside {
+  margin-top: 25px;
+  display: flex;
+}
+.avatarChat {
+  margin-right: 21px;
+}
+.aboutDopInfoImage {
+  margin-left: 721px;
+}
+.aboutDopInfoImage img {
+  margin-top: 8px;
+  padding-right: 29px;
+  width: 40px;
+  height: 40px;
+}
